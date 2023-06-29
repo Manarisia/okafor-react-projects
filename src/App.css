@@ -1,0 +1,94 @@
+.project {
+  background-color: white;
+  color: navy;
+  text-decoration: none;
+  border: 8px solid navy;
+  border-radius: 2rem 0;
+  font-size: 2rem;
+  width: 90%;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bolder;
+}
+
+.project:hover{
+  background-color: navy;
+  color: white;
+ transform:scale(1.05);
+}
+todo-header input{
+    width: 50%;
+}
+
+todo-header{
+  gap: 3px;;
+}
+
+
+.body{
+  font-family: montserrat;
+}  
+  
+  .navbar{
+      background-color: black;
+  }
+.carousel-item img{
+  height: 35rem;
+}
+
+  .services{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jwfWHvt9Nho4des8vrz5_KQw33yTboGVvg&usqp=CAU);
+height: 15rem;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 3rem;
+padding-top: 8rem;
+background-attachment: fixed;
+  }
+.service{
+  text-shadow: 1px 1px 8px white;
+}
+
+.card-img-top{
+  height: 13rem;
+}
+
+.card{
+  margin: 1rem;
+}
+
+
+.registration form{
+  max-width: 400px;
+  margin:5rem auto;
+}
+
+
+.login form {
+  text-align: center;
+}
+
+
+
+
+@media(max-width: 768){
+  .todo-header{flex-direction:column;}
+}
+.moviewebsite-header input{
+  width: 30%;
+  background-color: white;
+  
+}
+.moviewebsite-header button{
+  width:20%;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
